@@ -1,6 +1,10 @@
 # beer-list-golang-backend
 
-This SPA displays a list of draft beers and also implements a basic UI for browsing a craft beer database.  The server is written entirely in `Golang` and the frontend was developed with `javaScript` with light styling.
+This SPA displays a list of draft beers and implements a basic UI for browsing a craft beer database.  
+
+* The server is written entirely in `Golang`.  This project served as a boilerplate for a complete REST server w/ API endpoints in `Go`.
+
+* The front-end was developed with `React/Redux`. 
 
 ## Dependencies
 
