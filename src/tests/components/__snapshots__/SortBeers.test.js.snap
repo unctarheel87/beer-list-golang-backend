@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SortBeers correctly 1`] = `
+<form
+  className="uk-width-1-4 uk-margin uk-flex"
+>
+  <input
+    className="uk-input"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <select
+    className="uk-select"
+    onChange={[Function]}
+    value=""
+  >
+    <option
+      value=""
+    >
+      filter
+    </option>
+    <option
+      value="brewery_name"
+    >
+      Brewery Name
+    </option>
+    <option
+      value="beer_name"
+    >
+      Beer Name
+    </option>
+    <option
+      value="abv"
+    >
+      ABV
+    </option>
+    <option
+      value="draft"
+    >
+      Current Draft
+    </option>
+  </select>
+</form>
+`;
+
+exports[`should render with fake props 1`] = `
+<form
+  className="uk-width-1-4 uk-margin uk-flex"
+>
+  <input
+    className="uk-input"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value="duck"
+  />
+  <select
+    className="uk-select"
+    onChange={[Function]}
+    value="beer_name"
+  >
+    <option
+      value=""
+    >
+      filter
+    </option>
+    <option
+      value="brewery_name"
+    >
+      Brewery Name
+    </option>
+    <option
+      value="beer_name"
+    >
+      Beer Name
+    </option>
+    <option
+      value="abv"
+    >
+      ABV
+    </option>
+    <option
+      value="draft"
+    >
+      Current Draft
+    </option>
+  </select>
+</form>
+`;
